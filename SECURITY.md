@@ -23,3 +23,5 @@ declined, etc.
 [![Microsoft Defender For Devops](https://github.com/gilbertalgordo/addons-linter/actions/workflows/defender-for-devops.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/defender-for-devops.yml)
 
 [![Microsoft C++ Code Analysis](https://github.com/gilbertalgordo/addons-linter/actions/workflows/msvc.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/msvc.yml)
+
+[![PSScriptAnalyzer](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml)
