@@ -27,3 +27,5 @@ declined, etc.
 [![PSScriptAnalyzer](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml)
 
 [![pages-build-deployment](https://github.com/gilbertalgordo/addons-linter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/pages/pages-build-deployment)
+
+[![OSSAR](https://github.com/gilbertalgordo/addons-linter/actions/workflows/ossar.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/ossar.yml)
