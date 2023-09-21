@@ -25,3 +25,5 @@ declined, etc.
 [![Microsoft C++ Code Analysis](https://github.com/gilbertalgordo/addons-linter/actions/workflows/msvc.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/msvc.yml)
 
 [![PSScriptAnalyzer](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/powershell.yml)
+
+[![pages-build-deployment](https://github.com/gilbertalgordo/addons-linter/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/gilbertalgordo/addons-linter/actions/workflows/pages/pages-build-deployment)
