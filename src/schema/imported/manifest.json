@@ -146,8 +146,7 @@
                       },
                       "required": [
                         "page"
-                      ],
-                      "additionalProperties": false
+                      ]
                     },
                     {
                       "type": "object",
@@ -749,9 +748,6 @@
         },
         {
           "$ref": "telemetry#/definitions/PermissionPrivileged"
-        },
-        {
-          "$ref": "urlbar#/definitions/PermissionPrivileged"
         }
       ]
     },

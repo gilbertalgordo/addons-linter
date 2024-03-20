@@ -3,9 +3,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: messages\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-06-21 08:31+0000\n"
-"PO-Revision-Date: 2023-06-21 11:32+0000\n"
-"Last-Translator: Іhor Hordiichuk <igor_ck@outlook.com>\n"
+"POT-Creation-Date: 2024-03-12 15:41+0000\n"
+"PO-Revision-Date: 2024-03-13 06:45+0000\n"
+"Last-Translator: Artem Polivanchuk <a.polivanchuk@outlook.com>\n"
 "Language-Team: none\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -55,8 +55,8 @@ msgid "Invalid nesting of selectors found"
 msgstr "Знайдено некоректне число вкладених селекторів"
 
 #: src/messages/css.js:14
-msgid "Selectors should not be nested"
-msgstr "Селектори не повинні бути вкладеними"
+msgid "Selector nesting is supported from Firefox version 117.0 and above"
+msgstr "Вкладення селектора підтримується з версії Firefox 117.0 і вище"
 
 #: src/messages/css.js:6
 msgid "A CSS syntax error was encountered"
@@ -422,427 +422,431 @@ msgstr "Властивість повідомлення \"message\" для ря�
 msgid "The field is required."
 msgstr "Це поле обов'язкове."
 
-#: src/messages/manifestjson.js:102 src/messages/manifestjson.js:110 src/messages/manifestjson.js:118
-msgid "The permission type is unsupported."
-msgstr "Тип дозволу не підтримується."
-
-#: src/messages/manifestjson.js:103 src/messages/manifestjson.js:128
-msgid "See https://mzl.la/1R1n1t0 (MDN Docs) for more information."
-msgstr "Перегляньте https://mzl.la/1R1n1t0 (Документацію MDN) для отримання докладної інформації."
-
 #: src/messages/manifestjson.js:11 src/messages/manifestjson.js:20
 msgid "See https://mzl.la/1ZOhoEN (MDN Docs) for more information."
 msgstr "Перегляньте https://mzl.la/1ZOhoEN (Документацію MDN) для отримання докладної інформації."
 
-#: src/messages/manifestjson.js:111 src/messages/manifestjson.js:157
+#: src/messages/manifestjson.js:115 src/messages/manifestjson.js:123 src/messages/manifestjson.js:131
+msgid "The permission type is unsupported."
+msgstr "Тип дозволу не підтримується."
+
+#: src/messages/manifestjson.js:116 src/messages/manifestjson.js:141
+msgid "See https://mzl.la/1R1n1t0 (MDN Docs) for more information."
+msgstr "Перегляньте https://mzl.la/1R1n1t0 (Документацію MDN) для отримання докладної інформації."
+
+#: src/messages/manifestjson.js:124 src/messages/manifestjson.js:170
 msgid "See https://mzl.la/2Qn0fWC (MDN Docs) for more information."
 msgstr "Перегляньте https://mzl.la/2Qn0fWC (Документацію MDN) для отримання докладної інформації."
 
-#: src/messages/manifestjson.js:119 src/messages/manifestjson.js:166
+#: src/messages/manifestjson.js:132 src/messages/manifestjson.js:179
 msgid "See https://mzl.la/3Woeqv4 (MDN Docs) for more information."
 msgstr "Перегляньте https://mzl.la/3Woeqv4 (Документацію MDN) для отримання докладної інформації."
 
-#: src/messages/manifestjson.js:127 src/messages/manifestjson.js:156
+#: src/messages/manifestjson.js:140 src/messages/manifestjson.js:169
 msgid "Unknown permission."
 msgstr "Невідомий дозвіл."
 
-#: src/messages/manifestjson.js:138
+#: src/messages/manifestjson.js:151
 msgid "%(instancePath)s: the following privileged permissions are only allowed in privileged extensions: %(privilegedPermissions)s."
 msgstr "%(instancePath)s: такі привілейовані дозволи дозволені лише в привілейованих розширеннях: %(privilegedPermissions)s."
 
-#: src/messages/manifestjson.js:165
+#: src/messages/manifestjson.js:178
 msgid "Invalid host permission."
 msgstr "Недійсний дозвіл вузла."
 
-#: src/messages/manifestjson.js:174
+#: src/messages/manifestjson.js:187
 msgid "Invalid install origin."
 msgstr "Недійсне джерело встановлення."
 
-#: src/messages/manifestjson.js:175
+#: src/messages/manifestjson.js:188
 msgid "Invalid install origin. A valid origin has - only - a scheme, hostname and optional port. See https://mzl.la/3TEbqbE (MDN Docs) for more information."
 msgstr "Недійсне джерело встановлення. Дійсне джерело має лише схему, назву хосту та необов'язковий порт. Подробиці перегляньте за адресою https://mzl.la/3TEbqbE (MDN Docs)."
-
-#: src/messages/manifestjson.js:183
-msgid "\"manifest_version\" in the manifest.json is not a valid value"
-msgstr "\"manifest_version\" в файлі manifest.json має неправильне значення"
-
-#: src/messages/manifestjson.js:186
-msgid "See https://mzl.la/20PenXl (MDN Docs) for more information."
-msgstr "Перегляньте https://mzl.la/20PenXl (Документацію MDN) для отримання докладної інформації."
 
 #: src/messages/manifestjson.js:19
 msgid "The field is invalid."
 msgstr "Це поле неправильне."
 
+#: src/messages/manifestjson.js:196
+msgid "\"manifest_version\" in the manifest.json is not a valid value"
+msgstr "\"manifest_version\" в файлі manifest.json має неправильне значення"
+
 #: src/messages/manifestjson.js:199
+msgid "See https://mzl.la/20PenXl (MDN Docs) for more information."
+msgstr "Перегляньте https://mzl.la/20PenXl (Документацію MDN) для отримання докладної інформації."
+
+#: src/messages/manifestjson.js:212
 msgid "\"%(property)s\" allows remote code execution in manifest.json"
 msgstr "\"%(property)s\" дозволяє віддалене виконання коду в manifest.json"
 
-#: src/messages/manifestjson.js:203
+#: src/messages/manifestjson.js:216
 msgid "A custom \"%(property)s\" needs additional review."
 msgstr "Спеціальні \"%(property)s\" потребують додаткового розгляду."
 
-#: src/messages/manifestjson.js:215
+#: src/messages/manifestjson.js:228
 msgid "\"%(property)s\" allows 'eval', which has strong security and performance implications."
 msgstr "\"%(property)s\" дозволяє 'eval', що серйозно впливає на безпеку і швидкодію."
 
-#: src/messages/manifestjson.js:219
+#: src/messages/manifestjson.js:232
 msgid "In most cases the same result can be achieved differently, therefore it is generally prohibited"
 msgstr "У більшості випадків однакового результату можна досягти по-різному, тому це взагалі заборонено"
 
-#: src/messages/manifestjson.js:227
+#: src/messages/manifestjson.js:240
 msgid "The \"name\" property must be a string with no leading/trailing whitespaces."
 msgstr "Властивість \"name\" має бути рядком без пробілів на початку/у кінці."
 
-#: src/messages/manifestjson.js:230
+#: src/messages/manifestjson.js:243
 msgid "See http://mzl.la/1STmr48 (MDN Docs) for more information."
 msgstr "Перегляньте http://mzl.la/1STmr48 (Документацію MDN) для отримання докладної інформації."
 
-#: src/messages/manifestjson.js:238
+#: src/messages/manifestjson.js:251
 msgid "\"update_url\" is not allowed."
 msgstr "\"update_url\" не дозволено."
 
-#: src/messages/manifestjson.js:239
+#: src/messages/manifestjson.js:252
 msgid "\"applications.gecko.update_url\" or \"browser_specific_settings.gecko.update_url\" are not allowed for Mozilla-hosted add-ons."
 msgstr "\"applications.gecko.update_url\" або \"browser_specific_settings.gecko.update_url\" не дозволені для додатків, розміщених у Mozilla."
 
-#: src/messages/manifestjson.js:248
+#: src/messages/manifestjson.js:261
 msgid "The \"update_url\" property is not used by Firefox."
 msgstr "Властивість \"update_url\" не використовується в Firefox."
 
-#: src/messages/manifestjson.js:249
+#: src/messages/manifestjson.js:262
 msgid "The \"update_url\" is not used by Firefox in the root of a manifest; your add-on will be updated via the Add-ons site and not your \"update_url\". See: https://mzl.la/25zqk4O"
 msgstr "\"update_url\" не використовується Firefox у корені маніфесту; ваш додаток буде оновлено через сайт додатків, а не через \"update_url\". Читайте: https://mzl.la/25zqk4O"
 
-#: src/messages/manifestjson.js:257
+#: src/messages/manifestjson.js:270
 msgid "\"strict_max_version\" not required."
 msgstr "\"strict_max_version\" не вимагається."
 
-#: src/messages/manifestjson.js:258
+#: src/messages/manifestjson.js:271
 msgid "\"strict_max_version\" shouldn't be used unless the add-on is expected not to work with future versions of Firefox."
 msgstr "\"strict_max_version\" не слід використовувати, якщо не очікується, що додаток не працюватиме з майбутніми версіями Firefox."
 
-#: src/messages/manifestjson.js:267
+#: src/messages/manifestjson.js:28 src/messages/manifestjson.js:33
+msgid "Manifest Version 3 is not fully supported on Firefox for Android."
+msgstr "Маніфест версії 3 не повністю підтримується у Firefox для Android."
+
+#: src/messages/manifestjson.js:280
 msgid "No \"%(property)s\" property found in manifest.json"
 msgstr "У manifest.json не знайдено властивості \"%(property)s\""
 
-#: src/messages/manifestjson.js:270
+#: src/messages/manifestjson.js:283
 msgid "\"%(property)s\" is required"
 msgstr "Потрібно вказати \"%(property)s\""
 
-#: src/messages/manifestjson.js:281
+#: src/messages/manifestjson.js:294
 msgid "An icon defined in the manifest could not be found in the package."
 msgstr "Не вдалося знайти визначену в маніфесті піктограму в пакунку."
 
-#: src/messages/manifestjson.js:285
+#: src/messages/manifestjson.js:298
 msgid "Icon could not be found at \"%(path)s\"."
 msgstr "Не вдалося знайти піктограму в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:300
+#: src/messages/manifestjson.js:313
 msgid "A background script defined in the manifest could not be found."
 msgstr "Не вдалося знайти визначений в маніфесті скрипт заднього плану."
 
-#: src/messages/manifestjson.js:303
+#: src/messages/manifestjson.js:316
 msgid "A background page defined in the manifest could not be found."
 msgstr "Не вдалося знайти визначену в маніфесті сторінку заднього плану."
 
-#: src/messages/manifestjson.js:308
+#: src/messages/manifestjson.js:321
 msgid "Background script could not be found at \"%(path)s\"."
 msgstr "Не вдалося знайти фоновий скрипт в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:309
+#: src/messages/manifestjson.js:322
 msgid "Background page could not be found at \"%(path)s\"."
 msgstr "Не вдалося знайти фонову сторінку в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:31
-msgid "\"%(fieldName)s\" is ignored for non-privileged add-ons."
-msgstr "\"%(fieldName)s\" ігнорується для непривілейованих додатків."
-
-#: src/messages/manifestjson.js:324
+#: src/messages/manifestjson.js:337
 msgid "A content script defined in the manifest could not be found."
 msgstr "Не вдалося знайти визначений в маніфесті скрипт вмісту."
 
-#: src/messages/manifestjson.js:325
+#: src/messages/manifestjson.js:338
 msgid "A content script css file defined in the manifest could not be found."
 msgstr "Не вдалося знайти визначений в маніфесті css файл зі скриптом вмісту."
 
-#: src/messages/manifestjson.js:330
+#: src/messages/manifestjson.js:343
 msgid "Content script defined in the manifest could not be found at \"%(path)s\"."
 msgstr "Не вдалося знайти визначений в маніфесті скрипт вмісту в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:333
+#: src/messages/manifestjson.js:346
 msgid "Content script css file defined in the manifest could not be found at \"%(path)s\"."
 msgstr "Не вдалося знайти визначений в маніфесті css файл в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:347
+#: src/messages/manifestjson.js:360
 msgid "A dictionary file defined in the manifest could not be found."
 msgstr "Не вдалося знайти визначений в маніфесті файл словника."
 
-#: src/messages/manifestjson.js:35
-msgid "\"%(fieldName)s\" manifest field is only used for privileged and temporarily installed extensions."
-msgstr "Поле маніфесту \"%(fieldName)s\" використовується лише для привілейованих і тимчасово встановлених розширень."
-
-#: src/messages/manifestjson.js:351
+#: src/messages/manifestjson.js:364
 msgid "Dictionary file defined in the manifest could not be found at \"%(path)s\"."
 msgstr "Файл словника, визначений в маніфесті, не вдалося знайти  в \"%(path)s\"."
 
-#: src/messages/manifestjson.js:363
+#: src/messages/manifestjson.js:376
 msgid "The manifest contains multiple dictionaries."
 msgstr "Маніфест містить декілька словників."
 
-#: src/messages/manifestjson.js:364
+#: src/messages/manifestjson.js:377
 msgid "Multiple dictionaries were defined in the manifest, which is unsupported."
 msgstr "В маніфесті визначено декілька словників, що не підтримується."
 
-#: src/messages/manifestjson.js:373
+#: src/messages/manifestjson.js:386
 msgid "The manifest contains a dictionaries object, but it is empty."
 msgstr "Маніфест містить об'єкт словників, але він порожній."
 
-#: src/messages/manifestjson.js:376
+#: src/messages/manifestjson.js:389
 msgid "A dictionaries object was defined in the manifest, but it was empty."
 msgstr "В маніфесті визначено об'єкт словників, але він порожній."
 
-#: src/messages/manifestjson.js:385
+#: src/messages/manifestjson.js:398
 msgid "The manifest contains a dictionary but no id property."
 msgstr "Маніфест містить словник, але не властивість id."
 
-#: src/messages/manifestjson.js:386
+#: src/messages/manifestjson.js:399
 msgid "A dictionary was found in the manifest, but there was no id set."
 msgstr "В маніфесті знайдено словник, але немає встановленого id."
-
-#: src/messages/manifestjson.js:396
-msgid "Forbidden content found in add-on."
-msgstr "В додатку знайдено заборонений вміст."
-
-#: src/messages/manifestjson.js:397
-msgid "This add-on contains forbidden content."
-msgstr "Цей додаток містить заборонений вміст."
 
 #: src/messages/manifestjson.js:4
 msgid "Please refer to https://github.com/mozilla-extensions/xpi-manifest to learn more about privileged extensions and signing."
 msgstr "Зверніться до https://github.com/mozilla-extensions/xpi-manifest , щоб дізнатися більше про привілейовані розширення та підписування."
 
-#: src/messages/manifestjson.js:405
+#: src/messages/manifestjson.js:409
+msgid "Forbidden content found in add-on."
+msgstr "В додатку знайдено заборонений вміст."
+
+#: src/messages/manifestjson.js:410
+msgid "This add-on contains forbidden content."
+msgstr "Цей додаток містить заборонений вміст."
+
+#: src/messages/manifestjson.js:418
 msgid "Icons must be square."
 msgstr "Піктограми повинні бути квадратними."
 
-#: src/messages/manifestjson.js:406
+#: src/messages/manifestjson.js:419
 msgid "Icon at \"%(path)s\" must be square."
 msgstr "Піктограми в \"%(path)s\" повинні бути квадратними."
 
-#: src/messages/manifestjson.js:417
+#: src/messages/manifestjson.js:430
 msgid "The size of the icon does not match the manifest."
 msgstr "Розмір піктограми не відповідає маніфесту."
 
-#: src/messages/manifestjson.js:419
+#: src/messages/manifestjson.js:432
 msgid "Expected icon at \"%(path)s\" to be %(expected)d pixels wide but was %(actual)d."
 msgstr "Очікувана ширина піктограми в \"%(path)s\" повинна бути %(expected)d пікселів, але була %(actual)d."
 
-#: src/messages/manifestjson.js:432
+#: src/messages/manifestjson.js:44
+msgid "\"%(fieldName)s\" is ignored for non-privileged add-ons."
+msgstr "\"%(fieldName)s\" ігнорується для непривілейованих додатків."
+
+#: src/messages/manifestjson.js:445
 msgid "Corrupt image file"
 msgstr "Пошкоджений файл зображення"
 
-#: src/messages/manifestjson.js:434
+#: src/messages/manifestjson.js:447
 msgid "Expected icon file at \"%(path)s\" is corrupted"
 msgstr "Очікуваний файл піктограми в \"%(path)s\" пошкоджений"
 
-#: src/messages/manifestjson.js:443
+#: src/messages/manifestjson.js:456
 msgid "This property has been deprecated."
 msgstr "Ця властивість більше не підтримується."
 
-#: src/messages/manifestjson.js:450
+#: src/messages/manifestjson.js:463
 msgid "This theme LWT alias has been removed in Firefox 70."
 msgstr "Цей псевдонім LWT-теми було вилучено в Firefox 70."
 
-#: src/messages/manifestjson.js:451
+#: src/messages/manifestjson.js:464
 msgid "See https://mzl.la/2T11Lkc (MDN Docs) for more information."
 msgstr "Перегляньте https://mzl.la/2T11Lkc (Документацію MDN) для отримання докладної інформації."
 
-#: src/messages/manifestjson.js:466
+#: src/messages/manifestjson.js:479
 msgid "Theme image for \"%(type)s\" could not be found at \"%(path)s\""
 msgstr "Зображення теми для \"%(type)s\" не вдалося знайти в \"%(path)s\""
 
-#: src/messages/manifestjson.js:477
+#: src/messages/manifestjson.js:48
+msgid "\"%(fieldName)s\" manifest field is only used for privileged and temporarily installed extensions."
+msgstr "Поле маніфесту \"%(fieldName)s\" використовується лише для привілейованих і тимчасово встановлених розширень."
+
+#: src/messages/manifestjson.js:490
 msgid "Corrupted theme image file"
 msgstr "Пошкоджений файл зображення теми"
 
-#: src/messages/manifestjson.js:479
+#: src/messages/manifestjson.js:492
 msgid "Theme image file at \"%(path)s\" is corrupted"
 msgstr "Файл зображення теми в \"%(path)s\" пошкоджений"
 
-#: src/messages/manifestjson.js:49
-msgid "\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
-msgstr "\"%(fieldName)s\" не підтримується у маніфестах версій %(versionRange)s."
-
-#: src/messages/manifestjson.js:490
+#: src/messages/manifestjson.js:503
 msgid "Theme image file has an unsupported file extension"
 msgstr "Файл зображення теми має непідтримуване розширення"
 
-#: src/messages/manifestjson.js:492
+#: src/messages/manifestjson.js:505
 msgid "Theme image file at \"%(path)s\" has an unsupported file extension"
 msgstr "Файл зображення теми в \"%(path)s\" має непідтримуване розширення"
 
-#: src/messages/manifestjson.js:506
+#: src/messages/manifestjson.js:519
 msgid "Theme image file has an unsupported mime type"
 msgstr "Файл зображення теми має непідтримуваний тип mime"
 
-#: src/messages/manifestjson.js:508
+#: src/messages/manifestjson.js:521
 msgid "Theme image file at \"%(path)s\" has the unsupported mime type \"%(mime)s\""
 msgstr "Файл зображення теми в \"%(path)s\" має непідтримуваний тип mime \"%(mime)s\""
 
-#: src/messages/manifestjson.js:51
-msgid "\"%(fieldName)s\" is not supported."
-msgstr "\"%(fieldName)s\" не підтримується."
-
-#: src/messages/manifestjson.js:522
+#: src/messages/manifestjson.js:535
 msgid "Theme image file mime type does not match its file extension"
 msgstr "Тип mime файлу зображення теми не збігається з його розширенням файлу"
 
-#: src/messages/manifestjson.js:526
+#: src/messages/manifestjson.js:539
 msgid "Theme image file extension at \"%(path)s\" does not match its actual mime type \"%(mime)s\""
 msgstr "Розширення файлу зображення теми в \"%(path)s\" не збігається з його типом mime \"%(mime)s\""
 
-#: src/messages/manifestjson.js:539
+#: src/messages/manifestjson.js:552
 msgid "The \"default_locale\" is missing localizations."
 msgstr "Відсутні переклади для \"default_locale\"."
 
-#: src/messages/manifestjson.js:540
+#: src/messages/manifestjson.js:553
 msgid "The \"default_locale\" value is specified in the manifest, but no matching \"messages.json\" in the \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
 msgstr "Значення \"default_locale\" вказано в маніфесті, але відповідного \"messages.json\" у каталозі \"_locales\" не існує. Перегляньте: https://mzl.la/2hjcaEE"
 
-#: src/messages/manifestjson.js:548
+#: src/messages/manifestjson.js:561
 msgid "The \"default_locale\" is missing but \"_locales\" exist."
 msgstr "\"default_locale\" відсутня, але \"_locales\" наявна."
 
-#: src/messages/manifestjson.js:549
+#: src/messages/manifestjson.js:562
 msgid "The \"default_locale\" value is not specifed in the manifest, but a \"_locales\" directory exists. See: https://mzl.la/2hjcaEE"
 msgstr "Значення \"default_locale\" не вказано в маніфесті, але каталог \"_locales\" існує. Перегляньте: https://mzl.la/2hjcaEE"
 
-#: src/messages/manifestjson.js:557
+#: src/messages/manifestjson.js:570
 msgid "Unsupported image extension"
 msgstr "Розширення зображення не підтримується"
 
-#: src/messages/manifestjson.js:558
+#: src/messages/manifestjson.js:571
 msgid "Icons should be one of JPG/JPEG, WebP, GIF, PNG or SVG."
 msgstr "Піктограми повинні мати формат JPG/JPEG, WebP, GIF, PNG або SVG."
 
-#: src/messages/manifestjson.js:566
+#: src/messages/manifestjson.js:579
 msgid "\"applications\" property overridden by \"browser_specific_settings\" property"
 msgstr "Властивість \"applications\" замінено властивістю \"browser_specific_settings\""
 
-#: src/messages/manifestjson.js:569
+#: src/messages/manifestjson.js:582
 msgid "The \"applications\" property is being ignored because it is superseded by the \"browser_specific_settings\" property which is also defined in your manifest. Consider removing applications."
 msgstr "Властивість \"applications\" ігнорується, оскільки вона замінена властивістю \"browser_specific_settings\", яка також визначена у вашому маніфесті. Розгляньте можливість вилучення applications."
 
-#: src/messages/manifestjson.js:579
+#: src/messages/manifestjson.js:592
 msgid "Empty language directory"
 msgstr "Порожній каталог мов"
 
-#: src/messages/manifestjson.js:581
+#: src/messages/manifestjson.js:594
 msgid "messages.json file missing in \"%(path)s\""
 msgstr "Файл messages.json відсутній в \"%(path)s\""
 
-#: src/messages/manifestjson.js:597
+#: src/messages/manifestjson.js:610
 msgid "Manifest key not supported by the specified minimum Firefox version"
 msgstr "Ключ маніфесту не підтримується в Firefox вказаної мінімальної версії"
 
-#: src/messages/manifestjson.js:601 src/messages/manifestjson.js:623
+#: src/messages/manifestjson.js:614 src/messages/manifestjson.js:636
 msgid "\"strict_min_version\" requires Firefox %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
 msgstr "Для \"strict_min_version\" потрібен Firefox %(minVersion)s, який було випущено до того, як у версії %(versionAdded)s представлено підтримку для \"%(key)s\"."
 
-#: src/messages/manifestjson.js:619
+#: src/messages/manifestjson.js:62
+msgid "\"%(fieldName)s\" is not supported in manifest versions %(versionRange)s."
+msgstr "\"%(fieldName)s\" не підтримується у маніфестах версій %(versionRange)s."
+
+#: src/messages/manifestjson.js:632
 msgid "Permission not supported by the specified minimum Firefox version"
 msgstr "Дозвіл не підтримується в Firefox вказаної мінімальної версії"
 
 #: src/messages/manifestjson.js:64
-msgid "%(instancePath)s: privileged manifest fields are only allowed in privileged extensions."
-msgstr "%(instancePath)s: привілейовані поля маніфесту дозволені лише в привілейованих розширеннях."
+msgid "\"%(fieldName)s\" is not supported."
+msgstr "\"%(fieldName)s\" не підтримується."
 
-#: src/messages/manifestjson.js:641
+#: src/messages/manifestjson.js:654
 msgid "Manifest key not supported by the specified minimum Firefox for Android version"
 msgstr "Ключ маніфесту не підтримується в Firefox для Android вказаної мінімальної версії"
 
-#: src/messages/manifestjson.js:645 src/messages/manifestjson.js:667
+#: src/messages/manifestjson.js:658 src/messages/manifestjson.js:680
 msgid "\"strict_min_version\" requires Firefox for Android %(minVersion)s, which was released before version %(versionAdded)s introduced support for \"%(key)s\"."
 msgstr "Для \"strict_min_version\" потрібен Firefox для Android %(minVersion)s, який було випущено до того, як у версії %(versionAdded)s представлено підтримку для \"%(key)s\"."
 
-#: src/messages/manifestjson.js:663
+#: src/messages/manifestjson.js:676
 msgid "Permission not supported by the specified minimum Firefox for Android version"
 msgstr "Дозвіл не підтримується в Firefox для Android вказаної мінімальної версії"
 
-#: src/messages/manifestjson.js:678
+#: src/messages/manifestjson.js:691
 msgid "Linking to \"addons.mozilla.org\" is not allowed"
 msgstr "Посилання на \"addons.mozilla.org\" заборонено"
 
-#: src/messages/manifestjson.js:679
+#: src/messages/manifestjson.js:692
 msgid "Links directing to \"addons.mozilla.org\" are not allowed to be used for homepage"
 msgstr "Посилання, що спрямовують на \"addons.mozilla.org\", заборонено використовувати на домашній сторінці"
 
-#: src/messages/manifestjson.js:691
+#: src/messages/manifestjson.js:704
 msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above"
 msgstr "Дозвіл \"%(permission)s\" вимагає, щоб \"strict_min_version\" було встановлено у \"%(minFirefoxVersion)s\" або новіших"
 
-#: src/messages/manifestjson.js:696
+#: src/messages/manifestjson.js:709
 msgid "The \"%(permission)s\" permission requires \"strict_min_version\" to be set to \"%(minFirefoxVersion)s\" or above. Please update your manifest.json version to specify a minimum Firefox version."
 msgstr "Дозвіл \"%(permission)s\" вимагає, щоб \"strict_min_version\" було встановлено у \"%(minFirefoxVersion)s\" або новішому. Оновіть версію manifest.json, щоб указати мінімальну версію Firefox."
 
-#: src/messages/manifestjson.js:708
+#: src/messages/manifestjson.js:721
 msgid "The extension ID is required in Manifest Version 3 and above."
 msgstr "ID розширення потрібен у Маніфесті версії 3 і вище."
 
-#: src/messages/manifestjson.js:711
+#: src/messages/manifestjson.js:724
 msgid "See https://mzl.la/3PLZYdo for more information."
 msgstr "Перегляньте https://mzl.la/3PLZYdo для докладнішої інформації."
 
-#: src/messages/manifestjson.js:717
+#: src/messages/manifestjson.js:730
 msgid "%(instancePath)s: Privileged extensions should declare privileged permissions."
 msgstr "%(instancePath)s: привілейовані розширення мають оголошувати привілейовані дозволи."
 
-#: src/messages/manifestjson.js:728
+#: src/messages/manifestjson.js:741
 msgid "This extension does not declare any privileged permission. It does not need to be signed with the privileged certificate. Please upload it directly to https://addons.mozilla.org/."
 msgstr "Це розширення не оголошує жодних привілейованих дозволів. Його не потрібно підписувати привілейованим сертифікатом. Завантажте його безпосередньо на https://addons.mozilla.org/."
 
-#: src/messages/manifestjson.js:741
+#: src/messages/manifestjson.js:754
 msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for privileged extensions."
 msgstr "%(instancePath)s: для привілейованих розширень потрібен дозвіл \"mozillaAddons\"."
 
-#: src/messages/manifestjson.js:744
+#: src/messages/manifestjson.js:757
 msgid "%(instancePath)s: The \"mozillaAddons\" permission is required for extensions that include privileged manifest fields."
 msgstr "%(instancePath)s: для розширень, які містять привілейовані поля маніфесту потрібен дозвіл \"mozillaAddons\"."
 
-#: src/messages/manifestjson.js:757
+#: src/messages/manifestjson.js:77
+msgid "%(instancePath)s: privileged manifest fields are only allowed in privileged extensions."
+msgstr "%(instancePath)s: привілейовані поля маніфесту дозволені лише в привілейованих розширеннях."
+
+#: src/messages/manifestjson.js:770
 msgid "This extension does not include the \"mozillaAddons\" permission, which is required for privileged extensions."
 msgstr "Це розширення не містить дозволу \"mozillaAddons\", який потрібен для привілейованих розширень."
 
-#: src/messages/manifestjson.js:767
+#: src/messages/manifestjson.js:780
 msgid "Cannot use actions in hidden add-ons."
 msgstr "Неможливо використовувати дії в прихованих додатках."
 
-#: src/messages/manifestjson.js:768
+#: src/messages/manifestjson.js:781
 msgid "The hidden and browser_action/page_action (or action in Manifest Version 3 and above) properties are mutually exclusive."
 msgstr "Властивості hidden і browser_action/page_action (або дія у Маніфесті версії 3 і новіших) взаємозаперечні."
 
-#: src/messages/manifestjson.js:776
+#: src/messages/manifestjson.js:789
 msgid "Use \"browser_specific_settings\" instead of \"applications\"."
 msgstr "Використовуйте \"browser_specific_settings\" замість \"applications\"."
 
-#: src/messages/manifestjson.js:777
+#: src/messages/manifestjson.js:790
 msgid "The \"applications\" property in the manifest is deprecated and will no longer be accepted in Manifest Version 3 and above."
 msgstr "Властивість \"applications\" у маніфесті застаріла та більше не прийматиметься у версії 3 і новіших."
 
-#: src/messages/manifestjson.js:785
+#: src/messages/manifestjson.js:798
 msgid "\"applications\" is no longer allowed in Manifest Version 3 and above."
 msgstr "\"applications\" більше не дозволено в Маніфесті версії 3 і новіших."
 
-#: src/messages/manifestjson.js:787
+#: src/messages/manifestjson.js:800
 msgid "The \"applications\" property in the manifest is no longer allowed in Manifest Version 3 and above. Use \"browser_specific_settings\" instead."
 msgstr "Властивість \"applications\" у маніфесті більше не дозволена в Маніфесті версії 3 і новіших. Натомість використовуйте \"browser_specific_settings\"."
 
-#: src/messages/manifestjson.js:795
+#: src/messages/manifestjson.js:808
 msgid "The version string should be simplified because it won't be compatible with Manifest Version 3 and above."
 msgstr "Рядок версії слід спростити, оскільки він не буде сумісний із Маніфестом версії 3 і новіших."
 
-#: src/messages/manifestjson.js:797
+#: src/messages/manifestjson.js:810
 msgid ""
 "The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros will no longer be allowed. Letters will no longer be allowed either. "
 "See https://mzl.la/3h3mCRu (MDN Docs) for more information."
@@ -850,11 +854,11 @@ msgstr ""
 "Версія має бути рядком із 1–4 цифрами, розділеними крапками. Кожне число має містити до 9 цифр, а початкові нулі більше не допускаються. Букви також надалі не будуть дозволені. Подробиці за адресою "
 "https://mzl.la/3h3mCRu (MDN Docs)."
 
-#: src/messages/manifestjson.js:806
+#: src/messages/manifestjson.js:819
 msgid "The version string should be simplified."
 msgstr "Рядок версії має бути спрощеним."
 
-#: src/messages/manifestjson.js:807
+#: src/messages/manifestjson.js:820
 msgid ""
 "The version should be a string with 1 to 4 numbers separated with dots. Each number should have up to 9 digits and leading zeros are not allowed. Letters are no longer allowed. See "
 "https://mzl.la/3h3mCRu (MDN Docs) for more information."
@@ -862,13 +866,16 @@ msgstr ""
 "Версія має бути рядком із 1–4 цифрами, розділеними крапками. Кожне число має містити до 9 цифр, нулі на початку не допускаються. Букви надалі не допускаються. Подробиці за адресою "
 "https://mzl.la/3h3mCRu (MDN Docs)."
 
-#: src/messages/manifestjson.js:83
+#: src/messages/manifestjson.js:96
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported in manifest versions %(versionRange)s."
 msgstr "/%(fieldName)s: \"%(permissionName)s\" не підтримується у маніфестах версій %(versionRange)s."
 
-#: src/messages/manifestjson.js:85
+#: src/messages/manifestjson.js:98
 msgid "/%(fieldName)s: \"%(permissionName)s\" is not supported."
 msgstr "/%(fieldName)s: \"%(permissionName)s\" не підтримується."
+
+#~ msgid "Selectors should not be nested"
+#~ msgstr "Селектори не повинні бути вкладеними"
 
 #~ msgid "The \"name\" property must be a string."
 #~ msgstr "Властивість \"name\" повинна бути рядком."
